@@ -1,0 +1,10 @@
+chromadb
+sentence-transformers
+crewai>=1.15.35; python_version < "3.14"
+langchain-core
+fastapi
+uvicorn
+autogen-agentchat==0.7.5
+# Keep the AutoGen protobuf pin compatible with this project's OTLP exporters.
+protobuf==5.29.3
+googleapis-common-protos==1.70.0

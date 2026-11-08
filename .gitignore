@@ -1,0 +1,43 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+ENV/
+
+# Python bytecode and test/type-check caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Packaging and build outputs
+build/
+dist/
+*.egg-info/
+
+# Local RAG database and application logs
+.chroma/
+.logs/
+*.log
+
+# Jupyter runtime files
+.ipynb_checkpoints/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor temporary files
+*.swp
+*.swo
+*~
